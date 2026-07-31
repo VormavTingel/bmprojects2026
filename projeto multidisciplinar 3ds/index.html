@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Template de loja de jogos inspirado em marketplaces modernos." />
+  <title>Nebula Store</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="topbar">
+    <div class="container nav-wrapper">
+      <a class="brand" href="#">
+        <span class="brand-icon">N</span>
+        <span>NEBULA</span>
+      </a>
+
+      <nav class="main-nav" id="mainNav">
+        <a class="active" href="#store">Loja</a>
+        <a href="#library">Biblioteca</a>
+        <a href="#community">Comunidade</a>
+        <a href="#support">Suporte</a>
+      </nav>
+
+      <div class="nav-actions">
+        <button class="install-button">Instalar aplicativo</button>
+        <button class="icon-button" aria-label="Notificações">🔔</button>
+        <button class="profile-button">
+          <span class="avatar">GS</span>
+          <span class="profile-name">Gabriel</span>
+        </button>
+        <button class="menu-toggle" id="menuToggle" aria-label="Abrir menu">☰</button>
+      </div>
+    </div>
+  </header>
+
+  <main id="store">
+    <section class="store-toolbar">
+      <div class="container toolbar-inner">
+        <nav class="store-nav">
+          <a class="active" href="#">Sua loja</a>
+          <a href="#">Novidades</a>
+          <a href="#">Categorias</a>
+          <a href="#">Loja de pontos</a>
+          <a href="#">Notícias</a>
+          <a href="#">Laboratórios</a>
+        </nav>
+
+        <form class="search-box" id="searchForm">
+          <input id="searchInput" type="search" placeholder="Buscar jogos..." autocomplete="off">
+          <button type="submit" aria-label="Pesquisar">⌕</button>
+        </form>
+      </div>
+    </section>
+
+    <section class="hero-section">
+      <div class="container">
+        <div class="section-heading">
+          <div>
+            <span class="eyebrow">Em destaque</span>
+            <h1>Descubra seu próximo universo</h1>
+          </div>
+          <div class="slider-controls">
+            <button id="prevSlide" aria-label="Anterior">←</button>
+            <button id="nextSlide" aria-label="Próximo">→</button>
+          </div>
+        </div>
+
+        <div class="hero-card" id="heroCard">
+          <div class="hero-art">
+            <div class="planet planet-one"></div>
+            <div class="planet planet-two"></div>
+            <div class="stars"></div>
+            <div class="hero-copy">
+              <span class="badge">DESTAQUE DA SEMANA</span>
+              <h2 id="heroTitle">Echoes of Orion</h2>
+              <p id="heroDescription">Explore sistemas desconhecidos, construa sua frota e mude o destino da galáxia.</p>
+              <div class="tag-row" id="heroTags">
+                <span>Exploração</span>
+                <span>RPG</span>
+                <span>Espaço</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="hero-sidebar">
+            <div class="hero-thumbnail large"></div>
+            <div class="thumbnail-grid">
+              <div class="hero-thumbnail small variation-a"></div>
+              <div class="hero-thumbnail small variation-b"></div>
+              <div class="hero-thumbnail small variation-c"></div>
+              <div class="hero-thumbnail small variation-d"></div>
+            </div>
+            <div class="hero-meta">
+              <h3 id="heroSideTitle">Echoes of Orion</h3>
+              <p>Já disponível</p>
+              <div class="price-line">
+                <span class="discount">-35%</span>
+                <div>
+                  <span class="old-price">R$ 149,90</span>
+                  <strong id="heroPrice">R$ 97,43</strong>
+                </div>
+              </div>
+              <button class="primary-button" id="heroBuyButton">Adicionar ao carrinho</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="slider-dots" id="sliderDots"></div>
+      </div>
+    </section>
+
+    <section class="category-section">
+      <div class="container">
+        <div class="section-heading compact">
+          <div>
+            <span class="eyebrow">Navegue por categoria</span>
+            <h2>Encontre algo para jogar</h2>
+          </div>
+        </div>
+
+        <div class="category-grid">
+          <button class="category-card" data-category="Ação">
+            <span class="category-icon">⚔</span>
+            <span>Ação</span>
+          </button>
+          <button class="category-card" data-category="RPG">
+            <span class="category-icon">♜</span>
+            <span>RPG</span>
+          </button>
+          <button class="category-card" data-category="Estratégia">
+            <span class="category-icon">⌁</span>
+            <span>Estratégia</span>
+          </button>
+          <button class="category-card" data-category="Corrida">
+            <span class="category-icon">🏁</span>
+            <span>Corrida</span>
+          </button>
+          <button class="category-card" data-category="Indie">
+            <span class="category-icon">✦</span>
+            <span>Indie</span>
+          </button>
+          <button class="category-card" data-category="Todos">
+            <span class="category-icon">▦</span>
+            <span>Todos</span>
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <section class="games-section">
+      <div class="container games-layout">
+        <aside class="filters-panel">
+          <div class="filter-header">
+            <h3>Filtrar resultados</h3>
+            <button id="clearFilters">Limpar</button>
+          </div>
+
+          <label class="filter-group">
+            <span>Preço máximo</span>
+            <input id="priceRange" type="range" min="20" max="250" value="250">
+            <output id="priceOutput">Até R$ 250</output>
+          </label>
+
+          <div class="filter-group">
+            <span>Recursos</span>
+            <label class="checkbox-row">
+              <input type="checkbox" value="Multiplayer" class="feature-filter">
+              <span>Multiplayer</span>
+            </label>
+            <label class="checkbox-row">
+              <input type="checkbox" value="Controle" class="feature-filter">
+              <span>Compatível com controle</span>
+            </label>
+            <label class="checkbox-row">
+              <input type="checkbox" value="Conquistas" class="feature-filter">
+              <span>Conquistas</span>
+            </label>
+          </div>
+
+          <div class="filter-group">
+            <span>Sistema</span>
+            <label class="checkbox-row">
+              <input type="checkbox" value="Windows" class="platform-filter">
+              <span>Windows</span>
+            </label>
+            <label class="checkbox-row">
+              <input type="checkbox" value="Linux" class="platform-filter">
+              <span>Linux</span>
+            </label>
+            <label class="checkbox-row">
+              <input type="checkbox" value="macOS" class="platform-filter">
+              <span>macOS</span>
+            </label>
+          </div>
+        </aside>
+
+        <div class="games-content">
+          <div class="games-topline">
+            <div>
+              <span class="eyebrow">Ofertas especiais</span>
+              <h2>Jogos populares</h2>
+            </div>
+            <select id="sortSelect" aria-label="Ordenar jogos">
+              <option value="featured">Em destaque</option>
+              <option value="price-asc">Menor preço</option>
+              <option value="price-desc">Maior preço</option>
+              <option value="discount">Maior desconto</option>
+            </select>
+          </div>
+
+          <div class="games-grid" id="gamesGrid"></div>
+          <p class="empty-state hidden" id="emptyState">Nenhum jogo encontrado com esses filtros.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="newsletter-section">
+      <div class="container newsletter-card">
+        <div>
+          <span class="eyebrow">Novidades semanais</span>
+          <h2>Receba ofertas e lançamentos</h2>
+          <p>Uma seleção de promoções, demos e novidades diretamente no seu e-mail.</p>
+        </div>
+        <form id="newsletterForm" class="newsletter-form">
+          <input type="email" id="newsletterEmail" placeholder="seuemail@exemplo.com" required>
+          <button class="primary-button" type="submit">Quero receber</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-grid">
+      <div>
+        <a class="brand" href="#">
+          <span class="brand-icon">N</span>
+          <span>NEBULA</span>
+        </a>
+        <p>Template demonstrativo para uma loja digital de jogos.</p>
+      </div>
+      <div>
+        <h4>Loja</h4>
+        <a href="#">Destaques</a>
+        <a href="#">Lançamentos</a>
+        <a href="#">Promoções</a>
+      </div>
+      <div>
+        <h4>Empresa</h4>
+        <a href="#">Sobre</a>
+        <a href="#">Carreiras</a>
+        <a href="#">Contato</a>
+      </div>
+      <div>
+        <h4>Legal</h4>
+        <a href="#">Privacidade</a>
+        <a href="#">Termos</a>
+        <a href="#">Reembolsos</a>
+      </div>
+    </div>
+  </footer>
+
+  <div class="cart-toast" id="cartToast">
+    <span>✓</span>
+    <div>
+      <strong>Adicionado ao carrinho</strong>
+      <small id="toastGameName"></small>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

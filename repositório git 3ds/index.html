@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Guia colaborativo de elementos HTML5, CSS e JavaScript.">
+    <title>Guia HTML5 — Exercício de versionamento</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- O defer carrega o JavaScript sem bloquear o HTML e o executa quando a página estiver pronta. -->
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <header class="cabecalho">
+        <div class="limite">
+            <p class="etiqueta">Desenvolvimento de Sistemas • 3ª série</p>
+            <h1>Guia colaborativo de HTML5</h1>
+            <p>Conheça os elementos atuais da linguagem e pratique Git e GitHub em equipe.</p>
+        </div>
+    </header>
+
+    <nav class="menu" aria-label="Navegação principal">
+        <a href="#sobre">Sobre</a>
+        <a href="#exemplos">Exemplos</a>
+        <a href="#catálogo">Catálogo</a>
+        <a href="#css">CSS</a>
+        <a href="#javascript">JavaScript</a>
+    </nav>
+
+    <main class="limite">
+        <section id="sobre">
+            <h2>Como funciona</h2>
+            <p>Use a busca e o filtro para estudar os elementos. Os cartões marcados como
+                <strong>lacuna</strong> devem ser completados pelo grupo indicado no arquivo
+                <code>INSTRUCOES.txt</code>.</p>
+            <aside class="aviso">
+                Este guia reúne elementos HTML atuais. Tags antigas ou obsoletas, como
+                <code>&lt;font&gt;</code>, <code>&lt;center&gt;</code> e <code>&lt;marquee&gt;</code>, não devem ser usadas.
+            </aside>
+        </section>
+
+        <section id="exemplos">
+            <h2>HTML5 na prática</h2>
+            <p>O conteúdo abaixo demonstra como elementos semânticos podem ser combinados em uma página real.</p>
+
+            <article class="demonstracao">
+                <header>
+                    <p class="etiqueta-clara">Exemplo de artigo</p>
+                    <h3>A importância do HTML semântico</h3>
+                    <p>Publicado em <time datétime="2026-07-31">31 de julho de 2026</time></p>
+                </header>
+
+                <p>O HTML descreve a <strong>estrutura</strong> e o <em>significado</em> do conteúdo.
+                    Utilizar o elemento correto melhora a acessibilidade, a organização do código e os mecanismos de busca.</p>
+
+                <blockquote cite="https://html.spec.whatwg.org/">
+                    <p>Escolha os elementos de acordo com seu significado, e não somente pela aparência.</p>
+                </blockquote>
+
+                <h4>Etapas para criar uma página</h4>
+                <ol>
+                    <li>Planejar a estrutura do conteúdo;</li>
+                    <li>Escrever o HTML semântico;</li>
+                    <li>Aplicar estilos com CSS;</li>
+                    <li>Adicionar interações com JavaScript;</li>
+                    <li>Testar acessibilidade e responsividade.</li>
+                </ol>
+
+                <figure>
+                    <svg class="ilustracao" viewBox="0 0 600 170" role="img" aria-labelledby="titulo-svg descricao-svg">
+                        <title id="titulo-svg">Relação entre HTML, CSS e JavaScript</title>
+                        <desc id="descricao-svg">Três blocos representam estrutura, aparência e comportamento.</desc>
+                        <rect x="15" y="35" width="170" height="95" rx="12" class="bloco-html"></rect>
+                        <rect x="215" y="35" width="170" height="95" rx="12" class="bloco-css"></rect>
+                        <rect x="415" y="35" width="170" height="95" rx="12" class="bloco-js"></rect>
+                        <text x="100" y="75">HTML</text><text x="100" y="103" class="subtexto">estrutura</text>
+                        <text x="300" y="75">CSS</text><text x="300" y="103" class="subtexto">aparência</text>
+                        <text x="500" y="75">JS</text><text x="500" y="103" class="subtexto">interação</text>
+                    </svg>
+                    <figcaption>As três tecnologias possuem responsabilidades diferentes e complementares.</figcaption>
+                </figure>
+            </article>
+
+            <div class="duas-colunas">
+                <article class="demonstracao">
+                    <h3>Exemplo de tabela</h3>
+                    <div class="tabela-responsiva">
+                        <table>
+                            <caption>Responsabilidade de cada tecnologia</caption>
+                            <thead>
+                                <tr><th scope="col">Tecnologia</th><th scope="col">Responsabilidade</th></tr>
+                            </thead>
+                            <tbody>
+                                <tr><th scope="row">HTML</th><td>Estrutura e significado</td></tr>
+                                <tr><th scope="row">CSS</th><td>Apresentação visual</td></tr>
+                                <tr><th scope="row">JavaScript</th><td>Comportamento e interação</td></tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </article>
+
+                <article class="demonstracao">
+                    <h3>Exemplo de formulário</h3>
+                    <form id="formulario-exemplo">
+                        <fieldset>
+                            <legend>Teste rápido</legend>
+                            <label for="nome">Nome</label>
+                            <input id="nome" name="nome" autocomplete="name" required>
+
+                            <label for="favorita">Tecnologia favorita</label>
+                            <select id="favorita" name="favorita">
+                                <option value="html">HTML</option>
+                                <option value="css">CSS</option>
+                                <option value="javascript">JavaScript</option>
+                            </select>
+
+                            <button type="submit">Enviar exemplo</button>
+                            <output id="mensagem-formulario" aria-live="polite"></output>
+                        </fieldset>
+                    </form>
+                </article>
+            </div>
+
+            <details class="demonstracao">
+                <summary>Veja outros exemplos de semântica em linha</summary>
+                <p><abbr title="HyperText Markup Language">HTML</abbr> é uma linguagem de marcação.
+                    A tag <code>&lt;mark&gt;</code> pode <mark>destacar um trecho relevante</mark>,
+                    <kbd>Ctrl</kbd> + <kbd>S</kbd> representa uma entrada do teclado e
+                    H<sub>2</sub>O ou 2<sup>3</sup> demonstram subscrito e sobrescrito.</p>
+            </details>
+        </section>
+
+        <section id="catalogo">
+            <h2>Catálogo de HTML, CSS e JavaScript</h2>
+            <div class="controles">
+                <div class="campo">
+                    <label for="busca">Buscar elemento, recurso ou descrição</label>
+                    <input id="busca" type="search" placeholder="Ex.: imagem, grid, função, evento...">
+                </div>
+                <div class="campo">
+                    <label for="area">Área</label>
+                    <select id="area">
+                        <option value="todas">Todas</option>
+                    </select>
+                </div>
+                <div class="campo">
+                    <label for="categoria">Categoria</label>
+                    <select id="categoria">
+                        <option value="todas">Todas</option>
+                    </select>
+                </div>
+            </div>
+            <p id="resultado" class="resultado" aria-live="polite"></p>
+            <div id="lista-tags" class="grade"></div>
+            <noscript>Ative o JavaScript para visualizar o catálogo de cards.</noscript>
+        </section>
+
+        <section id="css">
+            <h2>CSS: aparência da página</h2>
+            <p>O arquivo <code>style.css</code> controla cores, fontes, espaçamentos, tamanhos e a adaptação da página a telas menores.</p>
+            <dl>
+                <dt>Seletor</dt><dd>Indica quais elementos receberão o estilo, como <code>.cartao</code> ou <code>body</code>.</dd>
+                <dt>Propriedade</dt><dd>É o aspecto alterado, como <code>color</code>, <code>margin</code> ou <code>display</code>.</dd>
+                <dt>Valor</dt><dd>Define a configuração da propriedade, como <code>blue</code>, <code>16px</code> ou <code>grid</code>.</dd>
+            </dl>
+            <pre><code>.cartao {
+    color: #1f2937;
+    padding: 1rem;
+}</code></pre>
+        </section>
+
+        <section id="javascript">
+            <h2>JavaScript: comportamento da página</h2>
+            <p>O arquivo <code>script.js</code> guarda os dados dos cards, cria a lista na tela e permite pesquisar e filtrar sem recarregar a página.</p>
+            <ul>
+                <li><strong>Variável:</strong> armazena um valor com <code>const</code> ou <code>let</code>.</li>
+                <li><strong>Função:</strong> agrupa instruções reutilizáveis.</li>
+                <li><strong>Evento:</strong> reage a ações, como digitar ou clicar.</li>
+                <li><strong>DOM:</strong> permite ao JavaScript consultar e modificar o HTML.</li>
+            </ul>
+        </section>
+    </main>
+
+    <footer>
+        <p>Exercício colaborativo de HTML, CSS, JavaScript e Git.</p>
+    </footer>
+</body>
+</html>

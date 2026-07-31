@@ -407,10 +407,14 @@ function mostrarConteudos() {
     filtrados.forEach((item) => {
         const cartao = document.createElement("article");
         const eLacuna = item.descricao === "[PREENCHER]";
+        const numero = conteudos.indexOf(item) + 1;
 
         cartao.className = `cartao ${item.area.toLocaleLowerCase("pt-BR")}${eLacuna ? " lacuna" : ""}`;
         cartao.innerHTML = `
-            <p class="área">${escaparHTML(item.area)}</p>
+            <div class="topo-cartao">
+                <p class="area">${escaparHTML(item.area)}</p>
+                <p class="numero-card">#${String(numero).padStart(3, "0")}</p>
+            </div>
             <h3>${formatarNome(item)}</h3>
             <p class="categoria">${escaparHTML(item.categoria)}</p>
             <p class="${eLacuna ? "preencher" : ""}">${escaparHTML(item.descricao)}</p>`;

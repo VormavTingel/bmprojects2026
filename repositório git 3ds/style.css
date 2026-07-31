@@ -126,9 +126,16 @@ form output { min-height: 1.5rem; color: #176037; font-weight: 700; }
 .cartao.css { border-top-color: #2b73d2; }
 .cartao.javascript { border-top-color: #d9a400; }
 .cartao h3 { margin: 0; color: var(--cor-principal); }
+.topo-cartao {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: .75rem;
+    margin-bottom: .45rem;
+}
 .cartao .area {
     display: inline-block;
-    margin: 0 0 .45rem;
+    margin: 0;
     padding: .12rem .5rem;
     color: var(--branco);
     background: var(--cor-principal);
@@ -140,6 +147,13 @@ form output { min-height: 1.5rem; color: #176037; font-weight: 700; }
 }
 .cartao.css .area { background: #2b73d2; }
 .cartao.javascript .area { color: #3b2b00; background: #ffd84d; }
+.numero-card {
+    margin: 0;
+    color: #596772;
+    font-family: ui-monospace, "Cascadia Code", "Consolas", monospace;
+    font-size: .82rem;
+    font-weight: 800;
+}
 .cartao .categoria { margin: .3rem 0; color: #596772; font-size: .85rem; font-weight: 700; }
 .cartao .preencher { color: #9a4d00; font-weight: 700; }
 

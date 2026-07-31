@@ -26,15 +26,6 @@ COMO A PÁGINA FUNCIONA
 8. Depois de conferir o resultado, o grupo envia a alteração por sua branch e
    abre um Pull Request para a branch main.
 
-ORGANIZAÇÃO DA TURMA (31 ALUNOS)
-A conta 31 dividido por 4 deixa 3 alunos. Para que exista uma dupla, a
-composição precisa ter excepcionalmente um grupo com 5 pessoas:
-
-- Grupos 1 a 6: 4 alunos em cada grupo (24 alunos);
-- Grupo 7: 5 alunos;
-- Grupo 8: 2 alunos.
-- Total: 24 + 5 + 2 = 31 alunos.
-
 DIVISÃO DAS LACUNAS
 O catálogo possui muitas lacunas [PREENCHER], distribuidas de forma aleatória
 entre HTML, CSS e JavaScript. Apróximadamente 45% dos cards ficaram como
@@ -42,9 +33,6 @@ exercício.
 
 Sugestão de divisão:
 - Cada grupo fica responsável por cerca de 19 lacunas;
-- O grupo 7, por ter 5 integrantes, pode ficar com cerca de 20 lacunas;
-- A dupla pode ficar com menos lacunas ou com lacunas mais simples, a critério
-  do professor;
 - Cada grupo deve pegar lacunas misturadas entre HTML, CSS e JavaScript.
 
 Cada grupo deverá substituir somente o texto [PREENCHER] dos cards que recebeu

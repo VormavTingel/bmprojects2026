@@ -47,7 +47,7 @@ FLUXO DE TRABALHO COM GIT E GITHUB
 
 2. Crie sua própria branch. Troque 01 pelo número do grupo e ajuste o nome do
    item pesquisado:
-   git switch -c grupo-01/card-header
+   git switch -c grupo-01/card-001-004-009-243
 
 3. Edite os arquivos, confira a página no navegador e verifique as alterações:
    git status
@@ -55,10 +55,10 @@ FLUXO DE TRABALHO COM GIT E GITHUB
 
 4. Registre o trabalho com uma mensagem clara:
    git add "repositório git 3ds"
-   git commit -m "Completa card header - grupo 01"
+   git commit -m "Completa card - grupo 01"
 
 5. Publique a branch no repositório remoto:
-   git push -u origin grupo-01/card-header
+   git push -u origin grupo-01/card-numero_dos_cards
 
 6. No GitHub, abra um Pull Request da branch do grupo para a branch main.
    Escreva no PR: integrantes, card pesquisado, resumo e como o teste foi feito.

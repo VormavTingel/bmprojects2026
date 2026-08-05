@@ -21,7 +21,7 @@ const conteudos = [
     // Card #009
     { area: "HTML", nome: "address", categoria: "Estrutura", descricao: "Apresenta informações de contato relacionadas ao conteúdo." },
     // Card #010
-    { area: "HTML", nome: "article", categoria: "Estrutura", descricao: "[PREENCHER]" },
+    { area: "HTML", nome: "article", categoria: "Estrutura", descricao: "Serve para marcar um conteúdo que faz sentido por si só." },
     // Card #011
     { area: "HTML", nome: "aside", categoria: "Estrutura", descricao: "[PREENCHER]" },
     // Card #012
@@ -43,7 +43,7 @@ const conteudos = [
     // Card #020
     { area: "HTML", nome: "blockquote", categoria: "Texto", descricao: "Representa uma citação longa vinda de outra fonte." },
     // Card #021
-    { area: "HTML", nome: "div", categoria: "Texto", descricao: "[PREENCHER]" },
+    { area: "HTML", nome: "div", categoria: "Texto", descricao: "Agrupar Elementos, Organizar o layout e aplicar estilo em páginas web" },
     // Card #022
     { area: "HTML", nome: "dl", categoria: "Texto", descricao: "[PREENCHER]" },
     // Card #023
@@ -67,7 +67,7 @@ const conteudos = [
     // Card #032
     { area: "HTML", nome: "pre", categoria: "Texto", descricao: "Preserva espaços, indentação e quebras de linha do texto original." },
     // Card #033
-    { area: "HTML", nome: "ul", categoria: "Texto", descricao: "[PREENCHER]" },
+    { area: "HTML", nome: "ul", categoria: "Texto", descricao: "Serve para criar uma lista não ordenada"},
     // Card #034
     { area: "HTML", nome: "a", categoria: "Semântica em linha", descricao: "Cria um hiperlink para outra URL, arquivo, email, telefone ou ponto da página." },
     // Card #035
@@ -97,7 +97,7 @@ const conteudos = [
     // Card #047
     { area: "HTML", nome: "mark", categoria: "Semântica em linha", descricao: "Destaca um trecho relevante no contexto atual." },
     // Card #048
-    { area: "HTML", nome: "q", categoria: "Semântica em linha", descricao: "[PREENCHER]" },
+    { area: "HTML", nome: "q", categoria: "Semântica em linha", descricao: "Serve para marcar uma citação curta em linha" },
     // Card #049
     { area: "HTML", nome: "ruby", categoria: "Semântica em linha", descricao: "[PREENCHER]" },
     // Card #050
@@ -115,7 +115,7 @@ const conteudos = [
     // Card #056
     { area: "HTML", nome: "strong", categoria: "Semântica em linha", descricao: "Indica grande importância, seriedade ou urgência." },
     // Card #057
-    { area: "HTML", nome: "sub", categoria: "Semântica em linha", descricao: "[PREENCHER]" },
+    { area: "HTML", nome: "sub", categoria: "Semântica em linha", descricao: "Serve para definir um texto subscrito" },
     // Card #058
     { area: "HTML", nome: "sup", categoria: "Semântica em linha", descricao: "[PREENCHER]" },
     // Card #059
@@ -135,7 +135,7 @@ const conteudos = [
     // Card #066
     { area: "HTML", nome: "audio", categoria: "Mídia", descricao: "Incorpora conteúdo de áudio." },
     // Card #067
-    { area: "HTML", nome: "img", categoria: "Mídia", descricao: "[PREENCHER]" },
+    { area: "HTML", nome: "img", categoria: "Mídia", descricao: "Serve para inserir e exibir imagens em uma página web" },
     // Card #068
     { area: "HTML", nome: "map", categoria: "Mídia", descricao: "[PREENCHER]" },
     // Card #069
@@ -261,7 +261,7 @@ const conteudos = [
     // Card #128
     { area: "CSS", nome: "text-decoration", categoria: "Tipografia", descricao: "[PREENCHER]" },
     // Card #129
-    { area: "CSS", nome: "text-transform", categoria: "Tipografia", descricao: "[PREENCHER]" },
+    { area: "CSS", nome: "text-transform", categoria: "Tipografia", descricao: "Controla o uso de maiúsculas e minúsculas no texto" },
     // Card #130
     { area: "CSS", nome: "white-space", categoria: "Tipografia", descricao: "[PREENCHER]" },
     // Card #131
@@ -277,7 +277,7 @@ const conteudos = [
     // Card #136
     { area: "CSS", nome: "box-sizing", categoria: "Box model", descricao: "Define se largura e altura incluem padding e borda." },
     // Card #137
-    { area: "CSS", nome: "width", categoria: "Tamanho", descricao: "[PREENCHER]" },
+    { area: "CSS", nome: "width", categoria: "Tamanho", descricao: "Define a espessura horizontal" },
     // Card #138
     { area: "CSS", nome: "height", categoria: "Tamanho", descricao: "[PREENCHER]" },
     // Card #139
@@ -289,7 +289,7 @@ const conteudos = [
     // Card #142
     { area: "CSS", nome: "max-height", categoria: "Tamanho", descricao: "[PREENCHER]" },
     // Card #143
-    { area: "CSS", nome: "display", categoria: "Layout", descricao: "[PREENCHER]" },
+    { area: "CSS", nome: "display", categoria: "Layout", descricao: "Define o itpo de caixa de renderização de um elemento" },
     // Card #144
     { area: "CSS", nome: "flex", categoria: "Layout", descricao: "[PREENCHER]" },
     // Card #145
@@ -307,7 +307,7 @@ const conteudos = [
     // Card #151
     { area: "CSS", nome: "gap", categoria: "Layout", descricao: "Controla o espaço entre linhas e colunas em flex, grid e multicolunas." },
     // Card #152
-    { area: "CSS", nome: "grid", categoria: "Layout", descricao: "[PREENCHER]" },
+    { area: "CSS", nome: "grid", categoria: "Layout", descricao: "Um sistema de layout bidimensional que gerencia colunas e linhas" },
     // Card #153
     { area: "CSS", nome: "grid-template-columns", categoria: "Layout", descricao: "[PREENCHER]" },
     // Card #154
@@ -333,7 +333,7 @@ const conteudos = [
     // Card #164
     { area: "CSS", nome: "container-type", categoria: "Responsividade", descricao: "Ativa consultas de container para adaptar componentes ao tamanho do próprio bloco." },
     // Card #165
-    { area: "CSS", nome: "container queries", categoria: "Responsividade", descricao: "[PREENCHER]" },
+    { area: "CSS", nome: "container queries", categoria: "Responsividade", descricao: "Permitem estilizar elementos com base no tamanho ou estilo" },
     // Card #166
     { area: "CSS", nome: "media queries", categoria: "Responsividade", descricao: "Aplicam estilos conforme características da tela, como largura, altura ou orientação." },
     // Card #167
@@ -361,7 +361,7 @@ const conteudos = [
     // Card #178
     { area: "CSS", nome: "transform", categoria: "Movimento", descricao: "Move, gira, escala ou inclina um elemento sem alterar o fluxo do layout." },
     // Card #179
-    { area: "CSS", nome: "translate", categoria: "Movimento", descricao: "[PREENCHER]" },
+    { area: "CSS", nome: "translate", categoria: "Movimento", descricao: "Move um elemento de lugar na tela sem alterar o espaço original dele" },
     // Card #180
     { area: "CSS", nome: "rotate", categoria: "Movimento", descricao: "[PREENCHER]" },
     // Card #181
@@ -377,7 +377,7 @@ const conteudos = [
     // Card #186
     { area: "CSS", nome: "pointer-events", categoria: "Interação", descricao: "Controla se um elemento pode receber eventos de ponteiro." },
     // Card #187
-    { area: "CSS", nome: "scroll-behavior", categoria: "Rolagem", descricao: "[PREENCHER]" },
+    { area: "CSS", nome: "scroll-behavior", categoria: "Rolagem", descricao: "Propriedade que define o comportamento de uma caixa de rolagem" },
     // Card #188
     { area: "CSS", nome: "scroll-margin", categoria: "Rolagem", descricao: "Define margem virtual para posicionamento ao rolar até um elemento." },
     // Card #189
@@ -485,7 +485,7 @@ const conteudos = [
     // Card #239
     { area: "JavaScript", nome: "symbol", categoria: "Tipos", descricao: "[PREENCHER]" },
     // Card #240
-    { area: "JavaScript", nome: "object", categoria: "Dados", descricao: "[PREENCHER]" },
+    { area: "JavaScript", nome: "object", categoria: "Dados", descricao: "Uma estrutura de dados que armazena coleções de dados complexos" },
     // Card #241
     { area: "JavaScript", nome: "array", categoria: "Dados", descricao: "Guarda uma lista ordenada de valores." },
     // Card #242
@@ -507,7 +507,7 @@ const conteudos = [
     // Card #250
     { area: "JavaScript", nome: "rest parameters", categoria: "Funções", descricao: "Agrupa argumentos restantes em um array usando ...nome." },
     // Card #251
-    { area: "JavaScript", nome: "spread syntax", categoria: "Funções", descricao: "[PREENCHER]" },
+    { area: "JavaScript", nome: "spread syntax", categoria: "Funções", descricao: "Serve para expandir elementos de objetos iteráveis" },
     // Card #252
     { area: "JavaScript", nome: "default parameters", categoria: "Funções", descricao: "[PREENCHER]" },
     // Card #253
@@ -529,7 +529,7 @@ const conteudos = [
     // Card #261
     { area: "JavaScript", nome: "continue", categoria: "Controle de fluxo", descricao: "Pula para a próxima repetição de um loop." },
     // Card #262
-    { area: "JavaScript", nome: "try/catch/finally", categoria: "Erros", descricao: "[PREENCHER]" },
+    { area: "JavaScript", nome: "try/catch/finally", categoria: "Erros", descricao: "Tratar erros e execeções sem deixar o prgrama parar ou fechar de repente" },
     // Card #263
     { area: "JavaScript", nome: "throw", categoria: "Erros", descricao: "[PREENCHER]" },
     // Card #264
@@ -549,7 +549,7 @@ const conteudos = [
     // Card #271
     { area: "JavaScript", nome: "JSON.stringify()", categoria: "APIs", descricao: "Converte valor JavaScript em texto JSON." },
     // Card #272
-    { area: "JavaScript", nome: "URL", categoria: "APIs", descricao: "[PREENCHER]" },
+    { area: "JavaScript", nome: "URL", categoria: "APIs", descricao: "Para criar, analisar, validar e modificar endereços" },
     // Card #273
     { area: "JavaScript", nome: "URLSearchParams", categoria: "APIs", descricao: "[PREENCHER]" },
     // Card #274
@@ -557,9 +557,9 @@ const conteudos = [
     // Card #275
     { area: "JavaScript", nome: "sessionStorage", categoria: "Estado", descricao: "[PREENCHER]" },
     // Card #276
-    { area: "JavaScript", nome: "cookies", categoria: "Estado", descricao: "[PREENCHER]" },
+    { area: "JavaScript", nome: "cookies", categoria: "Estado", descricao: "[PREENCHER]"},
     // Card #277
-    { area: "JavaScript", nome: "querySelector()", categoria: "DOM", descricao: "[PREENCHER]" },
+    { area: "JavaScript", nome: "querySelector()", categoria: "DOM", descricao: "Buscar e retornar o primeiro elemento de página" },
     // Card #278
     { area: "JavaScript", nome: "querySelectorAll()", categoria: "DOM", descricao: "[PREENCHER]" },
     // Card #279
@@ -587,7 +587,7 @@ const conteudos = [
     // Card #290
     { area: "JavaScript", nome: "event.target", categoria: "Eventos", descricao: "Indica o elemento que disparou o evento." },
     // Card #291
-    { area: "JavaScript", nome: "click", categoria: "Eventos", descricao: "[PREENCHER]" },
+    { area: "JavaScript", nome: "click", categoria: "Eventos", descricao: "Serve ára detectar ou simular a interação de clique do usuário" },
     // Card #292
     { area: "JavaScript", nome: "input", categoria: "Eventos", descricao: "Evento disparado enquanto o valor de um campo muda." },
     // Card #293

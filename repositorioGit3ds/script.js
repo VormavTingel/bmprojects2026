@@ -5,7 +5,7 @@ const conteudos = [
     // Card #001
     { area: "HTML", nome: "html", categoria: "Documento", descricao: "[PREENCHER]" },
     // Card #002
-    { area: "HTML", nome: "head", categoria: "Documento", descricao: "[PREENCHER]" },
+    { area: "HTML", nome: "head", categoria: "Documento", descricao: "É um contêiner invisível para metadados que fica localizado entre a abertura da tag" },
     // Card #003
     { area: "HTML", nome: "title", categoria: "Documento", descricao: "Define o título exibido na aba do navegador." },
     // Card #004
@@ -27,7 +27,7 @@ const conteudos = [
     // Card #012
     { area: "HTML", nome: "footer", categoria: "Estrutura", descricao: "Define o rodapé de uma página, seção ou bloco de conteúdo." },
     // Card #013
-    { area: "HTML", nome: "header", categoria: "Estrutura", descricao: "[PREENCHER]" },
+    { area: "HTML", nome: "header", categoria: "Estrutura", descricao: "É um elemento semântico que representa um cabeçalho, contendo um grupo de introdução ou de ajuda à navegação com logotipos, títulos, menus e formulários de pesquisa" },
     // Card #014
     { area: "HTML", nome: "h1-h6", categoria: "Estrutura", descricao: "Definem seis níveis hierárquicos de títulos." },
     // Card #015
@@ -47,7 +47,7 @@ const conteudos = [
     // Card #022
     { area: "HTML", nome: "dl", categoria: "Texto", descricao: "[PREENCHER]" },
     // Card #023
-    { area: "HTML", nome: "dt", categoria: "Texto", descricao: "[PREENCHER]" },
+    { area: "HTML", nome: "dt", categoria: "Texto", descricao: "Identifica um termo ou nome dentro de uma lista de descrição" },
     // Card #024
     { area: "HTML", nome: "dd", categoria: "Texto", descricao: "Fornece a descrição ou valor associado a um termo." },
     // Card #025
@@ -77,7 +77,7 @@ const conteudos = [
     // Card #037
     { area: "HTML", nome: "bdi", categoria: "Semântica em linha", descricao: "[PREENCHER]" },
     // Card #038
-    { area: "HTML", nome: "bdo", categoria: "Semântica em linha", descricao: "[PREENCHER]" },
+    { area: "HTML", nome: "bdo", categoria: "Semântica em linha", descricao: "Serve para substituir a direcionalidade padrão do texto" },
     // Card #039
     { area: "HTML", nome: "br", categoria: "Semântica em linha", descricao: "Insere uma quebra de linha." },
     // Card #040
@@ -101,7 +101,7 @@ const conteudos = [
     // Card #049
     { area: "HTML", nome: "ruby", categoria: "Semântica em linha", descricao: "[PREENCHER]" },
     // Card #050
-    { area: "HTML", nome: "rp", categoria: "Semântica em linha", descricao: "[PREENCHER]" },
+    { area: "HTML", nome: "rp", categoria: "Semântica em linha", descricao: "É utilizado para fornecer parênteses de suporte (fallback) em navegadores que não suportam a exibição de anotações ruby (usadas principalmente para mostrar a pronúncia de ideogramas asiáticos)" },
     // Card #051
     { area: "HTML", nome: "rt", categoria: "Semântica em linha", descricao: "[PREENCHER]" },
     // Card #052
@@ -119,7 +119,7 @@ const conteudos = [
     // Card #058
     { area: "HTML", nome: "sup", categoria: "Semântica em linha", descricao: "[PREENCHER]" },
     // Card #059
-    { area: "HTML", nome: "time", categoria: "Semântica em linha", descricao: "[PREENCHER]" },
+    { area: "HTML", nome: "time", categoria: "Semântica em linha", descricao: "O comando time serve para medir o tempo de execução de um programa, dividindo o resultado em tempo real, de usuário e do sistema" },
     // Card #060
     { area: "HTML", nome: "u", categoria: "Semântica em linha", descricao: "[PREENCHER]" },
     // Card #061
@@ -243,7 +243,7 @@ const conteudos = [
     // Card #119
     { area: "CSS", nome: "box-shadow", categoria: "Cores e fundos", descricao: "Cria sombra em volta da caixa do elemento." },
     // Card #120
-    { area: "CSS", nome: "text-shadow", categoria: "Cores e texto", descricao: "[PREENCHER]" },
+    { area: "CSS", nome: "text-shadow", categoria: "Cores e texto", descricao: "Adiciona efeitos de sombra diretamente em caracteres de texto" },
     // Card #121
     { area: "CSS", nome: "font-family", categoria: "Tipografia", descricao: "Define a família de fontes usada no texto." },
     // Card #122
@@ -265,7 +265,7 @@ const conteudos = [
     // Card #130
     { area: "CSS", nome: "white-space", categoria: "Tipografia", descricao: "[PREENCHER]" },
     // Card #131
-    { area: "CSS", nome: "overflow-wrap", categoria: "Tipografia", descricao: "[PREENCHER]" },
+    { area: "CSS", nome: "overflow-wrap", categoria: "Tipografia", descricao: "Define se o navegador pode quebrar palavras longas no meio para evitar que elas extrapolem os limites do elemento contêiner" },
     // Card #132
     { area: "CSS", nome: "margin", categoria: "Box model", descricao: "[PREENCHER]" },
     // Card #133
@@ -281,7 +281,7 @@ const conteudos = [
     // Card #138
     { area: "CSS", nome: "height", categoria: "Tamanho", descricao: "[PREENCHER]" },
     // Card #139
-    { area: "CSS", nome: "min-width", categoria: "Tamanho", descricao: "[PREENCHER]" },
+    { area: "CSS", nome: "min-width", categoria: "Tamanho", descricao: "Define a largura mínima de um elemento" },
     // Card #140
     { area: "CSS", nome: "max-width", categoria: "Tamanho", descricao: "[PREENCHER]" },
     // Card #141
@@ -295,7 +295,7 @@ const conteudos = [
     // Card #145
     { area: "CSS", nome: "flex-direction", categoria: "Layout", descricao: "Define se os itens flex seguem em linha ou coluna." },
     // Card #146
-    { area: "CSS", nome: "flex-wrap", categoria: "Layout", descricao: "[PREENCHER]" },
+    { area: "CSS", nome: "flex-wrap", categoria: "Layout", descricao: "Define se os itens de um contêiner flexível devem ficar espremidos em uma única linha ou se podem quebrar e passar para linhas adicionais quando não houver mais espaço na tela" },
     // Card #147
     { area: "CSS", nome: "justify-content", categoria: "Layout", descricao: "[PREENCHER]" },
     // Card #148
@@ -323,7 +323,7 @@ const conteudos = [
     // Card #159
     { area: "CSS", nome: "inset", categoria: "Layout", descricao: "Atalho para top, right, bottom e left." },
     // Card #160
-    { area: "CSS", nome: "z-index", categoria: "Layout", descricao: "[PREENCHER]" },
+    { area: "CSS", nome: "z-index", categoria: "Layout", descricao: "Controla a ordem de sobreposição (profundidade no eixo Z) de elementos posicionados" },
     // Card #161
     { area: "CSS", nome: "float", categoria: "Layout", descricao: "Faz um elemento flutuar ao lado do texto; hoje e mais usado em casos especificos." },
     // Card #162
@@ -343,7 +343,7 @@ const conteudos = [
     // Card #169
     { area: "CSS", nome: "object-position", categoria: "Mídia", descricao: "Define o ponto de foco de imagens ou vídeos ajustados por object-fit." },
     // Card #170
-    { area: "CSS", nome: "visibility", categoria: "Visibilidade", descricao: "[PREENCHER]" },
+    { area: "CSS", nome: "visibility", categoria: "Visibilidade", descricao: "Define se um elemento aparece ou não na tela" },
     // Card #171
     { area: "CSS", nome: "overflow", categoria: "Visibilidade", descricao: "Controla o que acontece quando o conteúdo excede a caixa." },
     // Card #172
@@ -363,7 +363,7 @@ const conteudos = [
     // Card #179
     { area: "CSS", nome: "translate", categoria: "Movimento", descricao: "[PREENCHER]" },
     // Card #180
-    { area: "CSS", nome: "rotate", categoria: "Movimento", descricao: "[PREENCHER]" },
+    { area: "CSS", nome: "rotate", categoria: "Movimento", descricao: "Para aumentar ou diminuir o tamanho de um elemento na tela" },
     // Card #181
     { area: "CSS", nome: "scale", categoria: "Movimento", descricao: "[PREENCHER]" },
     // Card #182
@@ -479,7 +479,7 @@ const conteudos = [
     // Card #236
     { area: "JavaScript", nome: "boolean", categoria: "Tipos", descricao: "[PREENCHER]" },
     // Card #237
-    { area: "JavaScript", nome: "null", categoria: "Tipos", descricao: "[PREENCHER]" },
+    { area: "JavaScript", nome: "null", categoria: "Tipos", descricao: "É um valor especial que indica a ausência intencional de qualquer valor ou objeto" },
     // Card #238
     { area: "JavaScript", nome: "undefined", categoria: "Tipos", descricao: "[PREENCHER]" },
     // Card #239
@@ -497,7 +497,7 @@ const conteudos = [
     // Card #245
     { area: "JavaScript", nome: "WeakSet", categoria: "Coleções", descricao: "Conjunto fraco de objetos, util para marcar objetos sem impedir coleta de memória." },
     // Card #246
-    { area: "JavaScript", nome: "function", categoria: "Funções", descricao: "[PREENCHER]" },
+    { area: "JavaScript", nome: "function", categoria: "Funções", descricao: "Palavra-chave usada para criar um bloco de código reutilizável que executa uma tarefa específica" },
     // Card #247
     { area: "JavaScript", nome: "arrow function", categoria: "Funções", descricao: "[PREENCHER]" },
     // Card #248
@@ -511,7 +511,7 @@ const conteudos = [
     // Card #252
     { area: "JavaScript", nome: "default parameters", categoria: "Funções", descricao: "[PREENCHER]" },
     // Card #253
-    { area: "JavaScript", nome: "return", categoria: "Controle de fluxo", descricao: "[PREENCHER]" },
+    { area: "JavaScript", nome: "return", categoria: "Controle de fluxo", descricao: "Serve para encerrar a execução de uma função e enviar um valor de volta para o local onde essa função foi chamada" },
     // Card #254
     { area: "JavaScript", nome: "if/else", categoria: "Controle de fluxo", descricao: "Executa blocos diferentes conforme uma condição." },
     // Card #255
@@ -537,7 +537,7 @@ const conteudos = [
     // Card #265
     { area: "JavaScript", nome: "Promise", categoria: "Assíncrono", descricao: "Representa uma operação assíncrona que pode resolver ou falhar." },
     // Card #266
-    { area: "JavaScript", nome: "async/await", categoria: "Assíncrono", descricao: "[PREENCHER]" },
+    { area: "JavaScript", nome: "async/await", categoria: "Assíncrono", descricao: "Forma simples de escrever código assíncrono" },
     // Card #267
     { area: "JavaScript", nome: "setTimeout()", categoria: "Assíncrono", descricao: "Executa uma função depois de um atraso." },
     // Card #268
@@ -553,7 +553,7 @@ const conteudos = [
     // Card #273
     { area: "JavaScript", nome: "URLSearchParams", categoria: "APIs", descricao: "[PREENCHER]" },
     // Card #274
-    { area: "JavaScript", nome: "localStorage", categoria: "Estado", descricao: "[PREENCHER]" },
+    { area: "JavaScript", nome: "localStorage", categoria: "Estado", descricao: "Permite armazenar dados no navegador do usuário em formato de chave-valor." },
     // Card #275
     { area: "JavaScript", nome: "sessionStorage", categoria: "Estado", descricao: "[PREENCHER]" },
     // Card #276
@@ -565,7 +565,7 @@ const conteudos = [
     // Card #279
     { area: "JavaScript", nome: "getElementById()", categoria: "DOM", descricao: "Busca um elemento pelo atributo id." },
     // Card #280
-    { area: "JavaScript", nome: "createElement()", categoria: "DOM", descricao: "[PREENCHER]" },
+    { area: "JavaScript", nome: "createElement()", categoria: "DOM", descricao: "Cria um novo elemento HTML na memória usando JavaScript" },
     // Card #281
     { area: "JavaScript", nome: "append()", categoria: "DOM", descricao: "Adiciona conteúdo ou elementos ao final de outro elemento." },
     // Card #282
